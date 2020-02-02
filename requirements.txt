@@ -129,10 +129,7 @@ spyder-kernels==1.8.1
 termcolor==1.1.0
 terminado==0.8.2
 testpath==0.4.2
-Theano==1.0.4
-torch==1.1.0.post2
-tornado==6.0.2
-traitlets==4.3.2
+
 ujson==1.35
 urllib3==1.25.7
 watchdog==0.9.0
