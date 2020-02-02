@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ML Model -Salary Prediction </title>
+</head>
+<body>
+    <form action="{{ url_for('predict')}}" method="POST">
+        <input type="text" name="experience" placeholder="experience" required="required" />
+        <input type="text" name="test_score" placeholder="Test Score" required="required"/>
+        <input type="text" name="interview_score" placeholder="Interview Score" required="required"/>
+        <button type="submit"> Predict</button>
+    </form>
+    <br>
+  
+    {{prediction_text}}
+    
+</body>
+</html>
